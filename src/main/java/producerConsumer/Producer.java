@@ -14,7 +14,7 @@ public class Producer implements Runnable {
 
     @Override
     public void run() {
-        var file = new File("src/main/java/produserConsumer/voyna.txt");
+        var file = new File("src/main/java/producerConsumer/voyna.txt");
 
         ArrayList<String> words = parser.parse(file);
 
